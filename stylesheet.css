@@ -1,6 +1,7 @@
 
 body{
 	margin:0px;
+	background-image:linear-gradient(black,white);
 }
 .header{
 	background:black;
@@ -89,4 +90,140 @@ body{
 .high-light-text p{
 	font-size:20px;
 	letter-spacing: 2px;
+}
+
+.animal-container{
+	width: 1170px;
+	margin :0 auto;
+}
+.cat-box{
+	height: 600px;
+	background-image: url(cat.jpg);
+	background-size:cover;
+}
+.cat-box-text{
+	margin-left: 100px;
+	padding-left: 50px;
+	padding-top:50px;
+	display: block;
+	
+	float:left;
+}
+}
+.cat-box-text h1{
+	font-size: 40px;
+	letter-spacing: 5px;
+	
+}
+.cat-box-text h1:hover{
+	font-size:60px;
+	transition: all 1s;
+}
+.cat-box-text p{
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing:1px;
+}
+.cat-box-text p:hover{
+	font-size: 30px;
+	transition: all 1s;
+
+}
+.cat-bt-box{
+	float:right;
+	margin-top:200px;
+}
+.cat-bt-box a{
+	display: block;
+	background: rgba(192,192,192,0.5);
+	padding: 10px 25px;
+	margin-top: 5px;
+}
+.cat-bt1:hover{
+	background: rgba(128,128,128,0.9);
+	
+	padding-top:15px; 
+	transition: all 0.5s;
+}
+.cat-bt2:hover{
+	background: rgba(128,128,128,0.9);
+	
+	padding-top:15px; 
+	transition: all 0.5s;
+}
+
+.cat-bt3:hover{
+	background: rgba(128,128,128,0.9);
+	
+	padding-top:15px; 
+	transition: all 0.5s;
+}
+.dog-box{
+	height:600px;
+	background-image: url(dog.jpg);
+	background-size:cover;
+	
+
+}
+.dog-box-text{
+	margin-left: 100px;
+	padding-left: 50px;
+	padding-top:50px;
+	display: block;
+	float:left;
+}
+
+.dog-box-text h1{
+	font-size: 40px;
+	letter-spacing: 5px;	
+}
+.dog-box-text h1:hover{
+	font-size: 50px;
+	letter-spacing: 5px;
+	transition: all 0.5s;
+}
+.dog-box-text p{
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing:1px;
+}
+.dog-box-text p:hover{
+	font-size:30px;
+	letter-spacing: 2px;
+	transition: all 1s;
+}
+
+.dog-bt-box{
+	margin-top:200px;
+	float:right;
+	
+}
+.dog-bt-box a{
+	color:white;
+	display:block;
+	background: rgba(0,150,0,0.3);
+	padding: 10px 25px;
+	margin-top:5px;
+	
+
+	
+}
+.dog-bt1:hover{
+	background: rgba(0,150,8,0.9);
+	
+	padding-top:15px; 
+	transition: all 0.5s;
+}
+.dog-bt2:hover{
+	background: rgba(0,150,8,0.9);
+	
+	padding-top:15px; 
+	transition: all 0.5s;
+}
+
+.dog-bt3:hover{
+	background: rgba(0,150,8,0.9);
+	
+	padding-top:15px; 
+	transition: all 0.5s;
 }

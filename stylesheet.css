@@ -2,16 +2,22 @@
 body{
 	margin:0px;
 }
-.header-contianer{
-	
-	
+.header{
 	background:black;
 	height: 70px;
-	
 	position: fixed;
 	top:0;
 	width: 110%;
 	margin: 0 auto;
+
+}
+
+.header-contianer{
+	width: 2040px;
+
+	
+	
+	
 
 
 	

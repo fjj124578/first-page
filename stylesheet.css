@@ -7,13 +7,14 @@ body{
 	height: 70px;
 	position: fixed;
 	top:0;
-	width: 110%;
+	width: 100%;
 	margin: 0 auto;
 
 }
 
 .header-contianer{
-	width: 2040px;
+
+	
 
 	
 	
@@ -48,6 +49,7 @@ body{
 	float:right;
 	font-size: 20px;
 	margin-right: 30px;
+	
 	
 }
 .header-bt-box a{
